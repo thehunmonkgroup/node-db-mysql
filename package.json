@@ -11,11 +11,10 @@
   ]
 , "bugs" : { "url" : "http://github.com/mariano/node-db-mysql/issues" }
 , "licenses" : [ { "type" : "MIT" } ]
-, "repositories" :
-  [ { "type" : "git"
-    , "url" : "https://github.com/mariano/node-db-mysql.git"
-    }
-  ]
+, "repository" : {
+    "type" : "git"
+    , "url" : "https://github.com/thehunmonkgroup/node-db-mysql.git"
+  }
 , "main" : "./db-mysql"
 , "scripts" : {
   "install": "node-gyp rebuild --release"
